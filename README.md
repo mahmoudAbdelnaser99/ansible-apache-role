@@ -3,6 +3,7 @@
 
 ## 🧾 Role Structure
 
+```
 mahmoud_role/
 ├── defaults/
 │ └── main.yml # Default variables
@@ -23,7 +24,7 @@ mahmoud_role/
 ├── vars/
 │ └── main.yml # Role-specific variables
 └── README.md # Documentation
-
+```
 
 ## ⚙️ Role Variables
 
@@ -34,18 +35,16 @@ motd_message: "Welcome to my server!"
 Run and test this role using ansible-navigator:
 ansible-navigator run -m stdout playbook.yml --syntax-check
 ansible-navigator run -m stdout playbook.yml
-
+```
 
 📦 Dependencies
 Defined in meta/main.yml. Currently:
 dependencies: []
 
-
-✍️ Author
-Mahmoud Abdelnaser Elsayed
-
+```
+by: Mahmoud Abdelnaser Elsayed
+```
 Supervisor: Dr. Anwar Fouad
----
 
 
 
