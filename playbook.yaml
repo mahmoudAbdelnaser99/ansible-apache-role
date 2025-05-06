@@ -1,0 +1,6 @@
+---
+- name: ansible task ( by Mahmoud abdelnaser elsayed)
+  hosts: nti
+  become: yes
+  roles:
+    - mahmoud_role
