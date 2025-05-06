@@ -1,0 +1,9 @@
+---
+# vars file for mahmoud_role
+
+
+SW: httpd
+SRV: http
+
+U: mahmoud
+P: nti

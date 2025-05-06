@@ -1,0 +1,8 @@
+---
+# handlers file for mahmoud_role
+
+
+- name: upload
+  copy:
+    src: ./index.html
+    dest: /var/www/html/index.html
